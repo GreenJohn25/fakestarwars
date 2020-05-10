@@ -1,0 +1,77 @@
+body {
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: violet;
+    font-size: 14px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: yellow;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 5px solid magenta;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0px 5px 30px 2px darkred;
+}
+  
+.effect {
+    display: none;
+    opacity: 0;
+    padding: 10px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 40%;
+    left: 5%;
+}
+.menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+.modal {
+  display: none;
+}
+.modal-popout {
+  background-color: black;
+  border: 2px solid white;
+  color: yellow;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+}
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
